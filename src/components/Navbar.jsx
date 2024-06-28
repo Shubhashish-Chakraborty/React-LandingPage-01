@@ -10,7 +10,15 @@ export const Navbar = () => {
                 <div className="container mx-auto flex items-center justify-between flex-wrap">
                     <a href="https://github.com/Shubhashish-Chakraborty/React-LandingPage-01" target="_blank" className="flex items-center">
                         <img src="https://avatars.githubusercontent.com/u/164302071?s=400&u=45e955948ca315aab721050339902ba81ff26939&v=4" alt="Profile Picture" className="w-10 h-10 rounded-full"/>
-                        <span className="ml-3 text-white font-semibold animate-pulse">Source Code</span>
+                        <span className="ml-3 text-white font-semibold">Source Code</span>
+
+                        <span class="relative flex h-3 w-3">
+                            <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-sky-400 opacity-75"></span>
+                            <span class="relative inline-flex rounded-full h-3 w-3 bg-sky-500"></span>
+                        </span>
+
+
+
                     </a>
                     <div className="text-center flex-1">
                         <span className="text-white text-2xl sm:text-3xl md:text-4xl font-semibold"><i>Courses</i></span>

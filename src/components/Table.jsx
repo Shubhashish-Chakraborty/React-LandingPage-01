@@ -58,6 +58,47 @@ export const Table = () => {
                             </tr>
                             </thead>
                             <tbody class="divide-y divide-gray-200 bg-white">
+
+                            
+                            <tr class="divide-x divide-gray-200">
+                                <td class="whitespace-nowrap px-4 py-4">
+                                <div class="flex items-center">
+                                    <div class="h-10 w-10 flex-shrink-0">
+                                    <img
+                                        class="h-10 w-10 rounded-full object-cover"
+                                        // src="https://images.unsplash.com/photo-1628157588553-5eeea00af15c?ixlib=rb-4.0.3&amp;ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;auto=format&amp;fit=crop&amp;w=1160&amp;q=80"
+                                        src="/TableAssets/Tutor03.png"
+                                        alt=""
+                                    />
+                                    </div>
+                                    <div class="ml-4">
+                                    <div class="text-sm font-medium text-gray-900">
+                                        Data Structures & Algorithms in C++
+                                    </div>
+                                    {/* <div class="text-sm text-gray-500">john@devui.com</div> */}
+                                    </div>
+                                </div>
+                                </td>
+                                <td class="whitespace-nowrap px-12 py-4">
+                                <div class="text-sm text-gray-900">Complete DSA Concepts</div>
+                                <div class="text-sm text-gray-500">With C++ Expert!</div>
+                                </td>
+                                <td class="whitespace-nowrap px-4 py-4">
+                                <span class="inline-flex rounded-full bg-orange-200 px-2 text-xs font-semibold leading-5 text-green-800">
+                                    Live
+                                </span>
+                                </td>
+                                <td class="whitespace-nowrap px-4 py-4 text-sm text-gray-500">
+                                Vedant Agrawal
+                                </td>
+                                {/* <td class="whitespace-nowrap px-4 py-4 text-right text-sm font-medium">
+                                <a href="#" class="text-gray-500 hover:text-indigo-600">
+                                    Edit
+                                </a>
+                                </td> */}
+                            </tr>
+                            
+                            
                             <tr class="divide-x divide-gray-200">
                                 <td class="whitespace-nowrap px-4 py-4">
                                 <div class="flex items-center">
@@ -79,7 +120,7 @@ export const Table = () => {
                                 </td>
                                 <td class="whitespace-nowrap px-12 py-4">
                                 <div class="text-sm text-gray-900">Complete DSA Concepts</div>
-                                <div class="text-sm text-gray-500">With Java</div>
+                                <div class="text-sm text-gray-500">With Java Expert!</div>
                                 </td>
                                 <td class="whitespace-nowrap px-4 py-4">
                                 <span class="inline-flex rounded-full bg-green-100 px-2 text-xs font-semibold leading-5 text-green-800">
@@ -108,15 +149,15 @@ export const Table = () => {
                                     </div>
                                     <div class="ml-4">
                                     <div class="text-sm font-medium text-gray-900">
-                                        Backend Development Cohort with Django
+                                        Data Structures & Algorithms in Javascript
                                     </div>
                                     {/* <div class="text-sm text-gray-500">jane@devui.com</div> */}
                                     </div>
                                 </div>
                                 </td>
                                 <td class="whitespace-nowrap px-12 py-4">
-                                <div class="text-sm text-gray-900">Understand Complete Django</div>
-                                <div class="text-sm text-gray-500">Project Oriented Cohort</div>
+                                <div class="text-sm text-gray-900">Complete DSA Concepts</div>
+                                <div class="text-sm text-gray-500">With Javascript Expert!</div>
                                 </td>
                                 <td class="whitespace-nowrap px-4 py-4">
                                 <span class="inline-flex rounded-full bg-orange-200 px-2 text-xs font-semibold leading-5 text-green-800">
