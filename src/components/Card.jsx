@@ -11,7 +11,7 @@ export const Card = ({ imgURLleft, imgURLright }) => {
                     />
                     <div className="p-4">
                         <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded mr-2">View</button>
-                        <button className="bg-green-500 hover:bg-green-700 text-white font-bold py-2 px-4 rounded">Register</button>
+                        <button className="bg-green-500 hover:bg-green-700 text-white font-bold py-2 px-4 rounded">Pre-Register</button>
                     </div>
                 </div>
 
@@ -24,7 +24,7 @@ export const Card = ({ imgURLleft, imgURLright }) => {
                     />
                     <div className="p-4">
                         <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded mr-2">View</button>
-                        <button className="bg-green-500 hover:bg-green-700 text-white font-bold py-2 px-4 rounded">Register</button>
+                        <button className="bg-green-500 hover:bg-green-700 text-white font-bold py-2 px-4 rounded">Pre-Register</button>
                     </div>
                 </div>
             </div>
