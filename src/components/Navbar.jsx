@@ -8,7 +8,7 @@ export const Navbar = () => {
         <>
             <nav className="bg-gray-800 p-4 fixed top-0 left-0 w-full z-50">
                 <div className="container mx-auto flex items-center justify-between flex-wrap">
-                    <a href="https://www.github.com/Shubhashish-Chakraborty?tab=repositories" target="_blank" className="flex items-center">
+                    <a href="https://github.com/Shubhashish-Chakraborty/React-LandingPage-01" target="_blank" className="flex items-center">
                         <img src="https://avatars.githubusercontent.com/u/164302071?s=400&u=45e955948ca315aab721050339902ba81ff26939&v=4" alt="Profile Picture" className="w-10 h-10 rounded-full"/>
                         <span className="ml-3 text-white font-semibold">Source Code</span>
                     </a>
