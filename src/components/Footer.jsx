@@ -6,7 +6,7 @@ export const Footer = () => {
     return (
         <footer className="bg-gray-800 text-white py-8">
             <div className="container mx-auto text-center">
-                <h2 className="text-2xl font-bold mb-4">Follow Me</h2>
+                <h2 className="text-2xl font-bold mb-4 animate-bounce">Follow Me!</h2>
                 <div className="flex justify-center space-x-8 mb-4">
                     <a href="https://twitter.com/__Shubhashish__" target="_blank" rel="noopener noreferrer" className="text-white hover:text-blue-400">
                         <FontAwesomeIcon icon={faTwitter} size="2x" />
