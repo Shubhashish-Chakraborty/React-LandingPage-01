@@ -7,18 +7,18 @@ export const Navbar = () => {
     return (
         <>
             <nav className="bg-gray-800 p-4 fixed top-0 left-0 w-full z-50">
-                <div className="container mx-auto flex items-center justify-between">
-                    <a href="https://github.com/Shubhashish-Chakraborty/React-LandingPage-01" target="_blank" className="flex items-center">
+                <div className="container mx-auto flex items-center justify-between flex-wrap">
+                    <a href="https://www.github.com/Shubhashish-Chakraborty?tab=repositories" target="_blank" className="flex items-center">
                         <img src="https://avatars.githubusercontent.com/u/164302071?s=400&u=45e955948ca315aab721050339902ba81ff26939&v=4" alt="Profile Picture" className="w-10 h-10 rounded-full"/>
                         <span className="ml-3 text-white font-semibold">Source Code</span>
                     </a>
                     <div className="text-center flex-1">
-                        <span className="text-white text-4xl font-semibold"><i>Courses</i></span>
+                        <span className="text-white text-2xl sm:text-3xl md:text-4xl font-semibold"><i>Courses</i></span>
                         <p className='text-cyan-300 hover:text-red-400 cursor-pointer'><strong>Made By Shubhashish Chakraborty</strong></p>
                     </div>
-                    <div>
+                    <div className="flex items-center">
                         <button onClick={() => setSignUpOpen(true)} className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded mr-2">SignUp</button>
-                        <button onClick={() => setSignInOpen(true)} className="bg-green-500 hover:bg-green-700 text-white font-bold py-2 px-4 rounded">SignIN</button>
+                        <button onClick={() => setSignInOpen(true)} className="bg-green-500 hover:bg-green-700 text-white font-bold py-2 px-4 rounded">Login</button>
                     </div>
                 </div>
             </nav>
@@ -37,7 +37,7 @@ export const Navbar = () => {
 const SignUpModal = ({ onClose }) => {
     return (
         <div className="fixed inset-0 flex items-center justify-center bg-black bg-opacity-50 z-50">
-            <div className="bg-white p-8 rounded shadow-lg w-96">
+            <div className="bg-white p-8 rounded shadow-lg w-11/12 sm:w-96">
                 <h2 className="text-2xl font-bold mb-4">Sign Up</h2>
                 <form>
                     <div className="mb-4">
@@ -69,7 +69,7 @@ const SignUpModal = ({ onClose }) => {
 const SignInModal = ({ onClose }) => {
     return (
         <div className="fixed inset-0 flex items-center justify-center bg-black bg-opacity-50 z-50">
-            <div className="bg-white p-8 rounded shadow-lg w-96">
+            <div className="bg-white p-8 rounded shadow-lg w-11/12 sm:w-96">
                 <h2 className="text-2xl font-bold mb-4">Sign In</h2>
                 <form>
                     <div className="mb-6">
