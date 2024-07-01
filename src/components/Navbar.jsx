@@ -22,7 +22,7 @@ export const Navbar = () => {
                     </a>
                     <div className="text-center flex-1">
                         <span className="text-white text-2xl sm:text-3xl md:text-4xl font-semibold"><i>Courses</i></span>
-                        <p className='text-cyan-300 hover:text-red-400 cursor-pointer'><strong>Made By Shubhashish Chakraborty</strong></p>
+                        <p className='text-cyan-300 hover:text-red-400 cursor-pointer transition duration-700 ease-in-out'><strong>Made By Shubhashish Chakraborty</strong></p>
                     </div>
                     <div className="flex items-center">
                         <button onClick={() => setSignUpOpen(true)} className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded mr-2 animate-bounce">SignUp</button>
