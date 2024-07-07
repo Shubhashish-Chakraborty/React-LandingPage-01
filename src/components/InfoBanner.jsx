@@ -4,7 +4,7 @@ export const InfoBanner = () => {
 
         <>
 
-            <div class="rounded-md border-l-4 border-green-500 bg-green-100 p-4">
+            <div class="rounded-md border-l-4 border-black bg-gray-100 p-4">
                 <div class="flex items-center justify-between space-x-4">
                     <div>
                     <svg
@@ -17,14 +17,15 @@ export const InfoBanner = () => {
                         stroke-width="2"
                         stroke-linecap="round"
                         stroke-linejoin="round"
-                        class="h-6 w-6 text-green-600"
+                        class="h-6 w-6"
                     >
-                        <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
-                        <polyline points="22 4 12 14.01 9 11.01"></polyline>
+                        <circle cx="12" cy="12" r="10"></circle>
+                        <line x1="12" y1="16" x2="12" y2="12"></line>
+                        <line x1="12" y1="8" x2="12.01" y2="8"></line>
                     </svg>
                     </div>
                     <div>
-                    <p class="text-sm font-medium text-green-600 animate-pulse">
+                    <p class="text-sm font-medium animate-pulse">
                         This is a simple React Frontend Project
                     </p>
                     </div>
@@ -39,7 +40,7 @@ export const InfoBanner = () => {
                         stroke-width="2"
                         stroke-linecap="round"
                         stroke-linejoin="round"
-                        class="h-6 w-6 cursor-pointer text-green-600"
+                        class="h-6 w-6 cursor-pointer"
                     >
                         <line x1="18" y1="6" x2="6" y2="18"></line>
                         <line x1="6" y1="6" x2="18" y2="18"></line>
@@ -47,6 +48,7 @@ export const InfoBanner = () => {
                     </div>
                 </div>
             </div>
+
 
 
         
