@@ -128,7 +128,7 @@ export const Table = () => {
                                 </span>
                                 </td>
                                 <td class="whitespace-nowrap px-4 py-4 text-sm text-gray-500">
-                                Akshat Sahu
+                                kaanchi
                                 </td>
                                 {/* <td class="whitespace-nowrap px-4 py-4 text-right text-sm font-medium">
                                 <a href="#" class="text-gray-500 hover:text-indigo-600">
